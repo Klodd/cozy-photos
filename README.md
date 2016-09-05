@@ -36,6 +36,16 @@ Hacking the Photos app requires you [setup a dev environment](https://docs.cozy.
 
     git clone https://github.com/cozy/cozy-photos.git
 
+Then use this command
+
+    npm install && cd client npm install && cd .. && npm run build
+
+Then
+    npm start
+
+
+
+
 Run it with:
 
     node server.js
