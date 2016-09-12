@@ -77,7 +77,23 @@ button.delete
     right 1px
     z-index 2
     padding 5px
-    width: auto
+    width: 25px
+
+button.rotate_left
+    position absolute
+    top 1px
+    right 26px
+    z-index 2
+    padding 5px
+    width: 25px
+
+button.rotate_right
+    position absolute
+    top 1px
+    right 51px
+    z-index 2
+    padding 5px
+    width: 25px
 
 
 // #### album list page ###
@@ -559,6 +575,8 @@ button.delete
 .mode-owner .empty .help
 .stopediting
 .delete
+.rotate_left
+.rotate_right
 .editing .startediting
 .editing .back
 .editing .clearance
@@ -568,6 +586,8 @@ button.delete
 
 .editing .flatbtn
 .editing .delete
+.editing .rotate_left
+.editing .rotate_right
 .editing .stopediting
 .mode-public .back
 .mode-public .download
@@ -871,4 +891,3 @@ for t in exifTransforms
 
     .albumitem
         width: 50%
-
