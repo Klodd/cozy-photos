@@ -44,11 +44,7 @@ Then
     npm start
 
 
-
-
-Run it with:
-
-    node server.js
+??
 
 Each modification of the server requires a new build, here is how to run a
 build:
